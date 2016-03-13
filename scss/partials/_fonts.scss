@@ -1,0 +1,27 @@
+/* ------------------------------------------
+ * Fonts
+ * ------------------------------------------ */
+
+@font-face {
+  font-family: 'VistaSans';
+  src: url('../fonts/VistaSansAltLight.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/VistaSansAltLight.woff') format('woff'), url('../fonts/VistaSansAltLight.ttf')  format('truetype'), url('../fonts/VistaSansAltLight.svg#VistaSansAltLight') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'VistaSans';
+  src: url('../fonts/VistaSansAltBold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/VistaSansAltBold.woff') format('woff'), url('../fonts/VistaSansAltBold.ttf')  format('truetype'), url('../fonts/VistaSansAltBold.svg#VistaSansAltBold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'VistaSans';
+  src: url('../fonts/VistaSansAltBlack.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/VistaSansAltBlack.woff') format('woff'), url('../fonts/VistaSansAltBlack.ttf')  format('truetype'), url('../fonts/VistaSansAltBlack.svg#VistaSansAltBlack') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}

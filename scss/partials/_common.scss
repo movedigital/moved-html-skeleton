@@ -1,0 +1,54 @@
+body {
+  height: 100%;
+  line-height: 1;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+input {
+  border-radius: 0;
+  -webkit-appearance: none;
+}
+
+// Placeholders
+::-webkit-input-placeholder {
+  color: $secondary-color;
+}
+
+:-moz-placeholder {
+  color: $secondary-color;
+};
+
+::-moz-placeholder {
+  color: $secondary-color;
+}
+
+:-ms-input-placeholder {
+  color: $secondary-color;
+}
+
+// Containers
+.row {
+  padding: 0 10px;
+
+  &.collapse {
+    padding: 0;
+  }
+}
+
+.container {
+  position: relative;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.page {
+  position: relative;
+}
+
+.block {
+  margin: 50px auto;
+}
+
+.inner-block {
+  margin: 25px auto !important;
+}

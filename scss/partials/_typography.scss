@@ -1,0 +1,47 @@
+// Text styles
+h1, h2, h3, h4, h5, h6 {
+  font-weight: $bold;
+  margin-bottom: 20px;
+}
+
+h1 {
+  @include font-size((
+		null: rem-calc(22),
+		large: rem-calc(26)
+	));
+}
+
+h2 {
+  @include font-size((
+		null: rem-calc(20),
+		large: rem-calc(24)
+	));
+}
+
+h3 {
+  @include font-size((
+		null: rem-calc(18),
+		large: rem-calc(22)
+	));
+}
+
+h4 {
+  @include font-size((
+		null: rem-calc(16),
+		large: rem-calc(20)
+	));
+}
+
+h5 {
+  @include font-size((
+		null: rem-calc(15),
+		large: rem-calc(18)
+	));
+}
+
+h6 {
+  @include font-size((
+		null: rem-calc(15),
+		large: rem-calc(18)
+	));
+}

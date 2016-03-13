@@ -19,6 +19,7 @@ var reload = browserSync.reload;
 var assetsGlob = 'assets/**/*.*';
 var sassGlob = 'scss/**/*.scss';
 var coffeeGlob = 'coffee/**/*.coffee';
+var allJadeGlob = 'jade/**/*.jade';
 var jadeGlob = 'jade/*.jade';
 
 var sassConfig = {
@@ -129,10 +130,10 @@ gulp.task('dev:sass', function() {
 });
 
 gulp.task('watch', ['dev:assets', 'dev:jade', 'dev:sass', 'dev:vendorJs'], function() {
-  // browserSync.init { port: [port] }
+  // browserSync.init({ port: [port] });
   gulp.watch([sassGlob], ['dev:sass']);
   gulp.watch([assetsGlob], ['dev:assets']);
-  gulp.watch([jadeGlob], ['dev:jade']);
+  gulp.watch([allJadeGlob], ['dev:jade']);
 
   bundle()
   b.on('update', bundle)
